@@ -12,5 +12,5 @@ everything gets stored in the word file; you can edit and format it later when y
 
 if you're a dummy, download that zip file, extract it, and launch notetakerv1
 
-if you know something about .net, then go on read my code and customize it as required, 
+if you know something about c#, then go on read my code and customize it as required, 
 i've tried to keep it clean.
