@@ -1,12 +1,12 @@
 # NotesTaker
 wpf application to take notes
 
-this note taker is kind of a mixture of sticky notes and snipping tool.
+This note taker is kind of a mixture of sticky notes and snipping tool.
 
-first of all, create a word file for your notes
-then from the application select that file
-then you can proceed to enter your running notes etc quickly in the text box
-or if you're taking notes from online tutorial, you can use the snip option to capture
+First of all, create a word file for your notes;
+then from the application select that file;
+then you can proceed to enter your running notes etc quickly in the text box;
+or if you're taking notes from online tutorial, you can use the snip option to capture screen;
 everything gets stored in the word file; you can edit and format it later when you have lots of time :)
 
 
