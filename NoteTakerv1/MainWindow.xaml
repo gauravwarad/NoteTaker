@@ -1,12 +1,75 @@
-﻿<Window x:Class="NoteTakerv1.MainWindow"
+﻿<Window x:Name="MainWindow1" x:Class="NoteTakerv1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NoteTakerv1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="NotesTaker" Height="166" Width="503" Topmost="True" Background="#FF042E3A" Foreground="#FFF9F6F6" ResizeMode="NoResize" Cursor="Arrow">
+    <Grid Margin="0,0,10,0">
+        <TextBox 
+            x:Name="MainTextBox" 
+            Margin="20,10,20,52" 
+            
+            TextWrapping="Wrap" Background="#FF051E4B" Foreground="#FFFBF4F4" SelectionBrush="#FFCADFF7"/>
+        <Button 
+            x:Name="ScreenShotButton" 
+            Content="ScreenShot" 
+            HorizontalAlignment="Left" 
+            Height="25" 
+            Margin="83,96,0,0" 
+            VerticalAlignment="Top" 
+            Width="65" 
+            RenderTransformOrigin="5.636,0.618" 
+            Click="ScreenShotButton_Click" Background="#FF105BA6" Foreground="#FFE0E2E8"/>
+        <Button 
+            x:Name="SnipButton" 
+            Content="Snip" 
+            HorizontalAlignment="Left" 
+            Height="25" 
+            Margin="162,96,0,0" 
+            VerticalAlignment="Top" 
+            Width="40" 
+            RenderTransformOrigin="5.636,0.618" 
+            Click="SnipButton_Click" Background="#FF105BA6" Foreground="#FFE0E2E8"/>
+        <Button 
+            x:Name="PushTextButton" 
+            IsDefault="True"
+            Content="PushText" 
+            HorizontalAlignment="Left" 
+            Height="25" 
+            Margin="20,96,0,0" 
+            VerticalAlignment="Top" 
+            Width="50" 
+            RenderTransformOrigin="5.636,0.618" 
+            Click="PushTextButton_Click" Background="#FF105BA6" Foreground="#FFE0E2E8"/>
+        <Label 
+            x:Name="RemarksLabel" 
+            Content="started" 
+            HorizontalAlignment="Left" 
+            Margin="383,93,0,0" 
+            VerticalAlignment="Top" 
+            Width="110" Height="28" Background="#FF042E3A" Foreground="#FFF7EDED"/>
+        <Button 
+            x:Name="LaunchFileButton" 
+            Content="Launch Word" 
+            HorizontalAlignment="Left" 
+            Height="25" 
+            Margin="215,96,0,0" 
+            VerticalAlignment="Top" 
+            Width="80" 
+            RenderTransformOrigin="5.636,0.618" 
+            Click="LaunchFileButton_Click" Background="#FF105BA6" Foreground="#FFE0E2E8"/>
+        <Button 
+            x:Name="OpenFileButton" 
+            Content="Select File" 
+            HorizontalAlignment="Left" 
+            Height="25" 
+            Margin="309,96,0,0" 
+            VerticalAlignment="Top" 
+            Width="60" 
+            RenderTransformOrigin="5.636,0.618" 
+            Click="OpenFileButton_Click" Background="#FF105BA6" Foreground="#FFE0E2E8"/>
 
     </Grid>
 </Window>

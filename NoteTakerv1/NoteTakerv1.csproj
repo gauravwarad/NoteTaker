@@ -6,4 +6,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DocX" Version="1.7.1" />
+    <PackageReference Include="GI.Screenshot" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>
