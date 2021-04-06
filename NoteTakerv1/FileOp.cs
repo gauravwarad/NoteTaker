@@ -30,7 +30,8 @@ namespace NoteTakerv1
 
         public static void addPicture(BitmapSource image1)
         {
-            string imgPath = @"C:\Users\Gaurav\Desktop\banana.png";
+            string username = Environment.UserName;
+            string imgPath = @"C:\Users\"+ username + @"\Desktop\banana.png";
             using (var fileStream = new FileStream(imgPath, FileMode.Create))
             {
                 BitmapEncoder encoder = new PngBitmapEncoder();
@@ -83,3 +84,7 @@ namespace NoteTakerv1
         }
     }
 }
+
+//application developed by Gaurav Warad
+//find me at github.com/gauravwarad or @GauravWarad on twitter
+//enjoy.

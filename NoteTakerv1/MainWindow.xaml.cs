@@ -18,6 +18,7 @@ using GI.Screenshot;
 using Xceed.Document.NET;
 using System.IO;
 
+
 namespace NoteTakerv1
 {
     /// <summary>
@@ -151,3 +152,7 @@ namespace NoteTakerv1
         }
     }
 }
+
+//application developed by Gaurav Warad
+//find me at github.com/gauravwarad or @GauravWarad on twitter
+//enjoy.
