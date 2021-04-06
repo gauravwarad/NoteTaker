@@ -23,6 +23,7 @@ namespace NoteTakerv1
         public MainWindow()
         {
             InitializeComponent();
+            //first change; checking version control.
         }
     }
 }
